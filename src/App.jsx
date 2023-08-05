@@ -39,7 +39,7 @@ const currentWindspeed = currentWeather["windspeed"];
         <div className='place m-3 display-5'>Weather App</div>
         <div className='present-time m-5 display-4 '><Time/></div>
         <div className='temperature my-5'>{currentTemperature} C°</div>
-        <div className='wind m-5'> Windspeed : {currentWindspeed} m/s</div>
+        <div className='wind my-5'> Windspeed : {currentWindspeed} m/s</div>
         
    </div>
   )
